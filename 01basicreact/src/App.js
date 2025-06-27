@@ -2,9 +2,11 @@
 import Chai from "./Chai";
 
 function App() {
+  const username = "prince gautam";
   return (<>
     <Chai />
-    <h1>chai aur react | prince gautam </h1>
+    <h1>chai aur react | {username} </h1>
+    <p>test para </p>
   </>
   );
 }
