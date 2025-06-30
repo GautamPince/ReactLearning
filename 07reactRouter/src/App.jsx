@@ -1,13 +1,17 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 
 import './App.css'
+
+import { BrowserRouter as Router } from 'react-router-dom'
 
 function App() {
 
   return (
-    <>
-      <h1 className='bg-green-600 p-4 '>React Router</h1>
-    </>
+    <Router>
+
+      {/* <h1>react router</h1> */}
+
+    </Router>
   )
 }
 
